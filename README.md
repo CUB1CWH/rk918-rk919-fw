@@ -10,6 +10,8 @@ I am not responsible for any damage or bricking that occurs if this firmware is 
 
 As of 11/12/2025, I have extracted and uploaded the stock firmware .bin file for this keyboard. You can flash using the official SONiX USB MCU ISP Tool or use SonixQMK's Sonix Keyboard Flasher.
 
+To flash QMK on this keyboard via Sonix Keyboard Flasher, set the MCU to SN32F24xB, and set the QMK offset to 0x00, as the SN32F24xB series has a ROM-based bootloader.
+
 # Information
 The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB. If you take a look underneath the space bar of both keyboards, it will show "919 918 HFD", as shown below:
 
